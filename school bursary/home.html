@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>School Bursary Application</title>
+</head>
+<body>
+    <header>
+        <h1>School Bursary Application</h1>
+    </header>
+    <main>
+        <form action="submit_form.php" method="post">
+            <section>
+                <h2>Personal Information</h2>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            </section>
+                <h2>Academic Details</h2>
+                <label for="grade">Grade/Class:</label>
+                <input type="text" id="grade" name="grade" required>
+
+                <label for="school">School Name:</label>
+                <input type="text" id="school" name="school" required>
+                
+                <label for="admission">admission number</label>
+                <input type="text" id="admission" name="grade" required>
+            </section>
+
+            <section>
+                <h2>Essay Questions</h2>
+                <label for="whyApply">Why are you applying for the bursary?</label>
+                <textarea id="whyApply" name="whyApply" rows="4" required></textarea>
+
+                <label for="futureGoals">What are your future educational and career goals?</label>
+                <textarea id="futureGoals" name="futureGoals" rows="4" required></textarea>
+            </section>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 School Bursary Application</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
